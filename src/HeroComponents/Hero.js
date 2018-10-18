@@ -11,8 +11,7 @@ export default class Hero extends React.Component {
         this.state = {
             key: "value",
         };
-
-        // this.handleClick = this.handleClick.bind(this);
+	// this.handleClick = this.handleClick.bind(this);
     }
 
     render() {
@@ -24,6 +23,7 @@ export default class Hero extends React.Component {
                     menu_items={this.props.menu_items}
                 />
                 <HeroBody
+			
                     hero_content={this.props.hero_content}
                 />
                 <HeroFoot
